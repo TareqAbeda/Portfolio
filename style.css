@@ -1,0 +1,85 @@
+body{
+    background-color: #202124;
+    color: white;
+}
+h1,h2,h3{
+    font-weight: 100;
+}
+img[class = "profile"]{
+    width:25%;
+    padding: 10px;
+}
+img[class = "first project"]{
+    width: 20%;
+    float: left;
+    
+}
+img[class = "second project"]{
+    width: 10%;
+    float: left; 
+}
+img{
+    width:30px;
+    padding: 5px;
+}
+div[class = "body"]{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+div[class = "title"]{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+div[class = "social media"]{
+    margin: auto;
+    width: 100%;
+    text-align:center;
+}
+div[class = "projects"]{
+    text-align: center;
+    font-size:1.3rem;
+}
+button:hover {
+    background: lightblue;
+}
+button[class = "search"]{
+    width: 54px;
+    height: 20px;
+}
+.search {
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    text-align: center;
+}
+p[class = "third project"]{
+    text-align: center;
+    font-size:1.3rem;
+}
+
+@media (max-width:480px){
+    img[class = "profile"]{
+        width:45%;
+    }
+    img{
+        width:30px;
+    }
+    div[class = "body"]{
+        margin: auto;
+        width: 80%;
+        padding: 10px;
+    }
+    div[class = "social media"]{
+        margin: auto;
+        width: 75%;
+        text-align:center;
+    }
+    h3[class = "info"]{
+        font-size: 1.52rem;
+    }
+    p[class = "footer"]{
+        text-align: center;
+    }
+}
