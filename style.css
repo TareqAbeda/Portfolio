@@ -86,8 +86,4 @@ a[class = "back to top"]{
     p[class = "footer"]{
         text-align: center;
     }
-     a[class = "back to top"]{
-        text-align: center;
-        align-items: center;
-    }
 }
