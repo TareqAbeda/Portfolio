@@ -60,6 +60,9 @@ p[class = "third project"]{
     font-size:1.3rem;
 }
 
+a[class = "back to top"]{
+    float: right;
+}
 @media (max-width:480px){
     img[class = "profile"]{
         width:45%;
@@ -82,5 +85,9 @@ p[class = "third project"]{
     }
     p[class = "footer"]{
         text-align: center;
+    }
+     a[class = "back to top"]{
+        text-align: center;
+        align-items: center;
     }
 }
